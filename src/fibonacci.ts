@@ -18,6 +18,7 @@ export const computeFibonacciNumber = (position: number, isRecursive: boolean = 
     return j;
 };
 
+// This works on negative numbers
 const recursiveFibonacci = (initialPosition: number, left: number = 0, right: number = 1, position?: number): number => {
     const currentPosition = position ?? initialPosition;
     if (initialPosition === 0) return 0;
